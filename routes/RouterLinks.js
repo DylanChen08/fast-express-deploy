@@ -5,9 +5,7 @@ import Comments from "../controller/common/comments";
 import TV from "../controller/common/tvSeries";
 import Books from "../controller/common/books";
 import varietyShows from "../controller/common/varietyShows";
-import Test from '../controller/common/Test'
 let RouterLinks = [
-    {path: '/test', controller: Test},
     {path: '/index', controller: Index.indexMovieRender},
     {path: '/carousel', controller: Index.indexCarouselRender},
     {path: '/released', controller: Release.getALLReleased},
